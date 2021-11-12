@@ -117,7 +117,7 @@
           isPointInTriangle(vUv, bottomLeft, tip, center) ||
           isPointInTriangle(vUv, bottomRight, tip, center)
         ) {
-          color.g = 1.;
+          color.b = 1.;
         }
       }
       
