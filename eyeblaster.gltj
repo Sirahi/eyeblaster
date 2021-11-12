@@ -80,7 +80,7 @@
       c = rotateCCW(c, vec2(0., 0.), iTime * timeFactor);
       
       if (isPointInTriangle(vUv, a, b, c)) {
-        color.r = 1.;
+        color.b = 1.;
       }
       
       // root
